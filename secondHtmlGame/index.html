@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Memory Match Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Memory Match Game</h1>
+  <div id="game">
+    <button id="restart-btn" class="restart-btn restart-button">Restart Game</button>
+
+    <div class="grid-container">
+      <div class="card hidden" data-card="A"></div>
+      <div class="card hidden" data-card="A"></div>
+      <div class="card hidden" data-card="B"></div>
+      <div class="card hidden" data-card="B"></div>
+      <div class="card hidden" data-card="C"></div>
+      <div class="card hidden" data-card="C"></div>
+      <div class="card hidden" data-card="D"></div>
+      <div class="card hidden" data-card="D"></div>
+      <div class="card hidden" data-card="E"></div>
+      <div class="card hidden" data-card="E"></div>
+      <div class="card hidden" data-card="F"></div>
+      <div class="card hidden" data-card="F"></div>
+    </div>
+
+  </div>
+
+  <h3 id="win-label">Congratulations! You won the game! <label class="win-timer"></label>. </h3>
+  <label class="turn-counter">0</label> turns. <br />
+  <label class="timer">0</label> seconds.
+  <script src="script.js"></script>
+</body>
+</html>
